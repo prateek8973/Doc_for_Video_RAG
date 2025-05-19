@@ -27,3 +27,36 @@ python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 ```
 - `pip install -r requirments.txt`
+
+```
+# Core dependencies
+fastapi
+uvicorn
+pydantic
+python-multipart
+typing-extensions
+
+
+moviepy
+faster-whisper
+
+
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-openai
+llama-index-llms-cohere
+llama-index-llms-huggingface
+sentence-transformers
+faiss-cpu
+torch
+transformers
+
+
+
+# Data processing
+numpy
+scikit-learn
+matplotlib
+pandas
+```
+

@@ -1,0 +1,22 @@
+site_name: Voice-Based Video Search App Documentation
+site_url: https://yourusername.github.io/voice-video-search-docs/
+
+docs_dir: my_docs
+
+nav:
+  - Home: index.md
+  - Tech Stack: tech-stack.md
+  - Process Flow: process-flow.md
+  - Whisper Stats: whisper.md
+  - Architecture: architecture.md
+  - Dockerisation: dockerisations.md
+  - Usage: usage.md
+
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
