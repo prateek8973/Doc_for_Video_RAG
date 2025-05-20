@@ -24,9 +24,14 @@ Welcome to the official documentation!
 ##  What This App Does
 
 -  Converts speech in videos to text using **Whisper**
--  Generates semantic embeddings with **MiniLM** for deep search
+-  Generates semantic embeddings with **all-MiniLM-L6-V2** for deep search
 -  Uses Gemini and Cerebras(Llama models) models LLM-based responses
 -  Supports multiple video files with timestamped insights
 -  Uses **FAISS** to index and search over large transcript databases
 -  Allows users to ask questions and get audio + text responses.
--  Uses the **Llamaindex** framework to index and search over large transcript databases.
+-  Uses the **Llamaindex** framework to index and search over large transcript databases. 
+
+## Future Enhancements
+
+- Add **Hybrid Search and Reranking Features**
+- Add **Sub Queries and Feedback Mechanism**.
